@@ -19,6 +19,7 @@ class FrenchDeck:
 
 suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
 
+
 #
 # Use like:
 # for card in sorted(deck, key=spades_high):
