@@ -1,3 +1,8 @@
+"""
+Matching for object type, e.g. string, int.
+Matching for class instance should also be possible.
+"""
+
 values = [
     ('hello', 5),
     (5, 5),

@@ -1,3 +1,9 @@
+"""
+Nested patterns, 'as' naming of subpatterns.
+And guards.
+Also showcases some f-string formatting options.
+"""
+
 metro_areas = [
     ('Tokyo', 'JP', 36.933, (35.689722, 139.691667)),
     ('Delhi NRC', 'IN', 21.935, (28.613643, 77.208889)),
