@@ -5,8 +5,7 @@ import array
 
 l = [ord(x) for x in 'hello']
 
-t_shirts = [(size, color) for size in ['S', 'M', 'L']
-                          for color in ['Black', 'White']]
+t_shirts = [(size, color) for size in ['S', 'M', 'L'] for color in ['Black', 'White']]
 
 
 # These are generator expressions, i.e. genexps:

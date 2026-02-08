@@ -12,6 +12,7 @@ metro_areas = [
     ('Sao Paulo', 'BR', 19.649, (-23.547788, -46.635833)),
 ]
 
+
 def main():
     print(f'{"":15} | {"latitude":>9} | {"longitude":>9}')
 

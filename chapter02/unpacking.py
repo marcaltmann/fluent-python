@@ -4,6 +4,7 @@ Overly complicated...
 
 Generally, parentheses can be omitted, e.g.
 """
+
 a = 1
 b = 2
 (a, b)
@@ -14,7 +15,7 @@ If the tuple contains only one element, add trailing comma:
 This design decision shows that tuples are rather important in Python...
 """
 (1,)
-1,
+(1,)
 
 """
 So, you can unpack to variables (in a tuple! weird...).
@@ -35,8 +36,11 @@ b = 3
 It's also called grabbing excess items. The original feature is grabbing excess
 parameters in function definitions with *args, e.g.
 """
+
+
 def f(*args):
     pass
+
 
 """
 On the other hand, the star parameter is not only used to grab items, but

@@ -7,6 +7,7 @@ https://fpy.li/2-32
 
 Also interesting: The slice object, e.g.:
 """
+
 a = [*range(10)]
 s = slice(2, 4)
 a[s]
